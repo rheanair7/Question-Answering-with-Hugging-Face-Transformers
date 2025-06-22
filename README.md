@@ -4,9 +4,13 @@ This project implements an interactive Question Answering (QA) system using pre-
 Question Answering (QA) is a key task in Natural Language Processing (NLP) that involves extracting an accurate answer to a given question from a provided context passage. This project uses a pre-trained model fine-tuned on the SQuAD 2.0 dataset, which enables it to handle both answerable and unanswerable questions.Rather than building a full pipeline from scratch, this project leverages models like deepset/roberta-base-squad2, allowing for high performance even with minimal compute resources. The entire QA system runs locally and supports real-time interaction through the terminal, making it a great starting point for experimenting with transformers, LLMs, and downstream NLP tasks.
 # Technologies
 Language:	Python 3.x
+
 NLP Library:	Transformers by Hugging Face
+
 Model:	deepset/roberta-base-squad2
+
 Deep Learning:	PyTorch
+
 Environment: Google Colab
 # How it works
 
